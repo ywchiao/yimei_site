@@ -1,0 +1,3 @@
+[submodule "themes/yimei"]
+	path = themes/yimei
+	url = git@github.com:ywchiao/yimei.git
