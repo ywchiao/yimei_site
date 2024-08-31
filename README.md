@@ -8,4 +8,8 @@
 
 ## Installation
 
+```bash
+hugo server
+```
+
 ## Configuration

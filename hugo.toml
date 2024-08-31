@@ -1,3 +1,127 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageCode = 'zh-tw'
+title = '億美生物科技'
+theme = 'yimei'
+hasCJKLanguage = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = false
+      [markup.goldmark.parser.attribute]
+        block = true
+    # 用來允許 Markdown 文件內的 raw html
+    [markup.goldmark.renderer]
+      unsafe = true
+    # 用來處理 CJK Markdown 文件中換行字元和強調字元 (**) 的空白問題
+    [markup.goldmark.extensions.CJK]
+      enable=true
+      eastAsianLineBreaks=true
+      escapedSpace=true
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+
+  [[menus.main]]
+    name = 'News'
+    pageRef = '/news'
+    identifier = 'news'
+    weight = 20
+
+  [[menus.main]]
+    name = 'Highlights'
+    pageRef = '/news/hightlights'
+    parent = 'news'
+    weight = 1
+
+  [[menus.main]]
+    name = '2024'
+    pageRef = '/news/2024'
+    parent = 'news'
+    weight = 2
+
+  [[menus.main]]
+    name = 'Brands'
+    pageRef = '/brands'
+    identifier = 'brands'
+    weight = 30
+
+  [[menus.main]]
+    name = 'brand 1'
+    pageRef = '/brands/1'
+    parent = 'brands'
+    weight = 1
+
+  [[menus.main]]
+    name = 'brand 2'
+    pageRef = '/brands/2'
+    parent = 'brands'
+    weight = 2
+
+  [[menus.main]]
+    name = 'brand 3'
+    pageRef = '/brands/3'
+    parent = 'brands'
+    weight = 3
+
+  [[menus.main]]
+    identifier = 'about'
+    name = 'Who We Are'
+    pageRef = '/about'
+    weight = 40
+
+  [[menus.main]]
+    name = 'Our Teams'
+    pageRef = '/teams'
+    identifier = 'teams'
+    weight = 50
+
+  [[menus.main]]
+    name = '教育團隊'
+    pageRef = '/teams/education'
+    parent = 'teams'
+    weight = 1
+
+  [[menus.main]]
+    name = '研發團隊'
+    pageRef = '/teams/laboratory'
+    parent = 'teams'
+    weight = 2
+
+  [[menus.main]]
+    name = '營運團隊'
+    pageRef = '/teams/operation'
+    parent = 'teams'
+    weight = 3
+
+  [[menus.main]]
+    name = '生產團隊'
+    pageRef = '/teams/manufacture'
+    parent = 'teams'
+    weight = 4
+
+  [[menus.main]]
+    name = 'Our Commitments'
+    pageRef = '/commitments'
+    identifier = 'commitments'
+    weight = 60
+
+  [[menus.main]]
+    name = '產學合作'
+    pageRef = '/commitments/cooperations'
+    parent = 'commitments'
+    weight = 1
+
+  [[menus.main]]
+    name = '志工活動'
+    pageRef = '/commitments/volunteers'
+    parent = 'commitments'
+    weight = 2
+
+  [[menus.main]]
+    name = 'Contact'
+    pageRef = '/contact'
+    weight = 70
