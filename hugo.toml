@@ -125,3 +125,16 @@ hasCJKLanguage = true
     name = 'Contact'
     pageRef = '/contact'
     weight = 70
+
+[params]
+  [params.headquarter]
+    name = '億美生物科技'
+    address = '銀河市太陽路3號'
+    mobile = '0987-123-456'
+    email = 'services@3rd-rock.galaxy.com'
+
+  [params.factory]
+    name = '工廠'
+    address = '銀河市太陽路3號'
+    mobile = '0987-123-456'
+    email = 'factory@3rd-rock.galaxy.com'
