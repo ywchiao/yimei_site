@@ -33,7 +33,7 @@ hasCJKLanguage = true
 
   [[menus.main]]
     name = 'Highlights'
-    pageRef = '/news/hightlights'
+    pageRef = '/news/highlights'
     parent = 'news'
     weight = 1
 
