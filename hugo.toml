@@ -44,6 +44,12 @@ hasCJKLanguage = true
     weight = 2
 
   [[menus.main]]
+    name = '2021'
+    pageRef = '/news/2021'
+    parent = 'news'
+    weight = 3
+
+  [[menus.main]]
     name = 'Brands'
     pageRef = '/brands'
     identifier = 'brands'
