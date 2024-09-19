@@ -1,17 +1,16 @@
 +++
 layout = 'list'
-title = '2021 News'
+title = 'Highlights'
 type = 'news'
 
 [params]
-  imageRef = '/news/2021/images'
 
 [[cascade]]
   [cascade._target]
-    path = '/news/2021/**'
+    path = '/news/highlights/**'
 
   [cascade.params]
-    imageRef = '/news/2021/images'
+    imageRef = 'news/highlights/images'
 +++
 
 一些內容

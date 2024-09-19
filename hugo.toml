@@ -133,6 +133,8 @@ hasCJKLanguage = true
     weight = 70
 
 [params]
+  slogan = '以愛為源, 悦寵無疆; 天然環保, 和諧生態'
+
   [params.headquarter]
     name = '億美生物科技'
     address = '銀河市太陽路3號'

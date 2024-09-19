@@ -1,59 +1,60 @@
 +++
-layout = 'team'
+layout = 'lab'
 title = 'R&D Laboratory Team'
 type = 'teams'
 
 [params]
+  id = 'teams-lab'
+  imageRef = 'images'
+
+  [[params.staffs]]
+    img = 'staff_01.jpg'
+    name = 'Andrew Wells'
+    pos = 'Assistant Researcher'
+    title = 'photo of a person'
+
+  [[params.staffs]]
+    img = 'staff_02.jpg'
+    name = 'Bright Kent'
+    pos = 'Assistant Researcher'
+    title = 'photo of a person'
+
+  [[params.staffs]]
+    img = 'staff_03.jpg'
+    name = 'Chaya Dean'
+    pos = 'Researcher'
+    title = 'photo of a person'
+
+  [[params.staffs]]
+    img = 'staff_04.jpg'
+    name = 'Dylan Aleman'
+    pos = 'Pharmacist'
+    title = 'photo of a person'
+
+  [[params.scenes]]
+    img = 'staff_group.jpg'
+    title = 'a group photo of lab staffs'
+    width = '96%'
+
+  [[params.scenes]]
+    img = 'labcorner_01.jpg'
+    title = 'a corner view of the lab'
+    width = '30%'
+
+  [[params.scenes]]
+    img = 'labcorner_02.jpg'
+    title = 'a corner view of the lab'
+    width = '30%'
+
+  [[params.scenes]]
+    img = 'labcorner_03.jpg'
+    title = 'a corner view of the lab'
+    width = '30%'
 +++
 
-{{< article id="teams-lab" >}}
-  {{% header %}}
 #### Innovations, Senses and Visions
 
 # R&D Laboratory Team
 
 As a new-founded laboratory, our r&d members are most passionated
 in their respective prospect expertises.
-  {{% /header %}}
-
-  {{< gallery-wall >}}
-    {{< headshot src="images/staff_01.jpg" >}}
-      {{% name-tag %}}
-## Andrew Wells
-
-#### Assistant Researcher
-      {{% /name-tag %}}
-    {{< /headshot >}}
-
-    {{< headshot src="images/staff_02.jpg" >}}
-      {{% name-tag %}}
-## Bright Kent
-
-#### Assistant Researcher
-      {{% /name-tag %}}
-    {{< /headshot >}}
-
-    {{< headshot src="images/staff_03.jpg" >}}
-      {{% name-tag %}}
-## Chaya Dean
-
-#### Rsearcher
-      {{% /name-tag %}}
-    {{< /headshot >}}
-
-    {{< headshot src="images/staff_04.jpg" >}}
-      {{% name-tag %}}
-## Dylan Aleman"
-
-#### Pharmacist
-      {{% /name-tag %}}
-    {{< /headshot >}}
-  {{< /gallery-wall >}}
-
-  {{< gallery-wall id="gallery-lab" >}}
-    {{< figure src="images/staff_group.jpg" width="96%" >}}
-    {{< figure src="images/labcorner_01.jpg" width="30%" >}}
-    {{< figure src="images/labcorner_02.jpg" width="30%" >}}
-    {{< figure src="images/labcorner_03.jpg" width="30%" >}}
-  {{< /gallery-wall >}}
-{{< /article >}}

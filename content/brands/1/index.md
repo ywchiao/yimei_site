@@ -1,5 +1,5 @@
 +++
-layout = 'brand'
+layout = 'brands'
 title = 'Brand-1'
 type = 'brands'
 
