@@ -22,7 +22,7 @@ hasCJKLanguage = true
 [menus]
   [[menus.main]]
     name = 'Home'
-    pageRef = '/'
+    pageRef = ''
     weight = 10
 
   [[menus.main]]

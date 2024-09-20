@@ -10,7 +10,7 @@ type = 'brands'
     path = '/products/**'
 
   [cascade.params]
-    imageRef = '/images'
+    imageRef = 'images'
 +++
 
 一些內容
