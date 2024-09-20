@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/yimei_site'
+baseURL = 'https://example.org'
 languageCode = 'zh-tw'
 title = '億美生物科技'
 theme = 'yimei'
@@ -27,109 +27,109 @@ hasCJKLanguage = true
 
   [[menus.main]]
     name = 'News'
-    pageRef = '/news'
+    pageRef = 'news'
     identifier = 'news'
     weight = 20
 
   [[menus.main]]
     name = 'Highlights'
-    pageRef = '/news/highlights'
+    pageRef = 'news/highlights'
     parent = 'news'
     weight = 1
 
   [[menus.main]]
     name = '2024'
-    pageRef = '/news/2024'
+    pageRef = 'news/2024'
     parent = 'news'
     weight = 2
 
   [[menus.main]]
     name = '2021'
-    pageRef = '/news/2021'
+    pageRef = 'news/2021'
     parent = 'news'
     weight = 3
 
   [[menus.main]]
     name = 'Brands'
-    pageRef = '/brands'
+    pageRef = 'brands'
     identifier = 'brands'
     weight = 30
 
   [[menus.main]]
     name = 'brand 1'
-    pageRef = '/brands/1'
+    pageRef = 'brands/1'
     parent = 'brands'
     weight = 1
 
   [[menus.main]]
     name = 'brand 2'
-    pageRef = '/brands/2'
+    pageRef = 'brands/2'
     parent = 'brands'
     weight = 2
 
   [[menus.main]]
     name = 'brand 3'
-    pageRef = '/brands/3'
+    pageRef = 'brands/3'
     parent = 'brands'
     weight = 3
 
   [[menus.main]]
     identifier = 'about'
     name = 'Who We Are'
-    pageRef = '/about'
+    pageRef = 'about'
     weight = 40
 
   [[menus.main]]
     name = 'Our Teams'
-    pageRef = '/teams'
+    pageRef = 'teams'
     identifier = 'teams'
     weight = 50
 
   [[menus.main]]
     name = '教育團隊'
-    pageRef = '/teams/education'
+    pageRef = 'teams/education'
     parent = 'teams'
     weight = 1
 
   [[menus.main]]
     name = '研發團隊'
-    pageRef = '/teams/laboratory'
+    pageRef = 'teams/laboratory'
     parent = 'teams'
     weight = 2
 
   [[menus.main]]
     name = '營運團隊'
-    pageRef = '/teams/operation'
+    pageRef = 'teams/operation'
     parent = 'teams'
     weight = 3
 
   [[menus.main]]
     name = '生產團隊'
-    pageRef = '/teams/manufacture'
+    pageRef = 'teams/manufacture'
     parent = 'teams'
     weight = 4
 
   [[menus.main]]
     name = 'Our Commitments'
-    pageRef = '/commitments'
+    pageRef = 'commitments'
     identifier = 'commitments'
     weight = 60
 
   [[menus.main]]
     name = '產學合作'
-    pageRef = '/commitments/cooperations'
+    pageRef = 'commitments/cooperations'
     parent = 'commitments'
     weight = 1
 
   [[menus.main]]
     name = '志工活動'
-    pageRef = '/commitments/volunteers'
+    pageRef = 'commitments/volunteers'
     parent = 'commitments'
     weight = 2
 
   [[menus.main]]
     name = 'Contact'
-    pageRef = '/contact'
+    pageRef = 'contact'
     weight = 70
 
 [params]
