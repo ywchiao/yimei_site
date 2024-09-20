@@ -5,7 +5,7 @@ type = 'teams'
 
 [params]
   id = 'teams-lab'
-  imageRef = 'images'
+  imageRef = 'teams/laboratory/images'
 
   [[params.staffs]]
     img = 'staff_01.jpg'

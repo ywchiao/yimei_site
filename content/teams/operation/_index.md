@@ -5,7 +5,7 @@ type = 'teams'
 
 [params]
    id = 'teams-op'
-   imageRef = 'images'
+   imageRef = 'teams/operation/images'
 
   [params.team_op]
     desc = """\
