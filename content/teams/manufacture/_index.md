@@ -32,3 +32,7 @@ type = 'teams'
 
 The manufacturing team assures our products will be always delivered
 on-time with quality and just in-time.
+
+<video controls>
+  <source src="../../media/eami_intro.mp4" type="video/mp4">
+</video>
